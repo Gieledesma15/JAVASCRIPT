@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+       
+        <table>
+            <th>
+                <tr>
+                    <td>Team Name</td>
+                    <td>Wins (3)</td>
+                    <td>Draws (1)</td>
+                    <td>Losess(0)</td>
+                </tr>
+            </th>
+            <tr>
+                <td> <input type="text" id="teamOne"></td>
+                <td> <input type="number" id="teamOneWins"></td>
+                <td> <input type="number" id="teamOneDraw"></td>
+                <td> <input type="number" id="teamOneLoss"></td>
+            </tr>
+            <tr>
+                <td> <input type="text" id="teamTwo"></td>
+                <td> <input type="number" id="teamTwoWins"></td>
+                <td> <input type="number" id="teamTwoDraws"></td>
+                <td> <input type="number" id="teamTwoLoss"></td>
+            </tr>
+        </table>
+       <button onclick="winner()">Determine Winner</button>
+    
+       <h1 id="announce"></h1>
+        
+        <script src="index.js"></script>
+    </body>
+</html>
